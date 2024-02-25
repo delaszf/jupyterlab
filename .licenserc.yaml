@@ -1,45 +1,111 @@
-header:
-  license:
-    spdx-id: BSD-3-Clause
-    copyright-owner: Jupyter Development Team
-    software-name: JupyterLab
-    content: |
-      Copyright (c) Jupyter Development Team.
-      Distributed under the terms of the Modified BSD License.
+names:
+- person
+nc: 1
+train:
+  - path: /content/dataset/train/images/img1.jpg
+  label: /content/dataset/train/labels/img1.txt
+  - path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img1.png
+  label: /content/dataset/train/labels/img1.txt
+  - path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_0.76_img1.png
+  label: /content/dataset/train/labels/img1.txt
+  - path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_64x173_img1.png
+  label: /content/dataset/train/labels/img1.txt
+  - path: /content/drive/MyDrive/Data_augmentation/img1_recorte.png
+  label: /content/dataset/train/labels/img1.txt
+  - path: /content/drive/MyDrive/Data_augmentation/img1_superpuesta_1.png
+  label: /content/dataset/train/labels/img1.txt
+  
 
-  paths-ignore:
-    - '**/*.ipynb'
-    - '**/*.json'
-    - '**/*.md'
-    - '**/*.svg'
-    - '**/*.yml'
-    - '**/*.yaml'
-    - '**/build'
-    - '**/lib'
-    - '**/node_modules'
-    - '**/MANIFEST.in'
-    - '**/static'
-    - '**/typings'
-    - '**/schemas'
-    - '**/themes'
-    - '*.map.js'
-    - '*.bundle.js'
-    - '**/.*'
-    - '.gitpod.yml'
-    - 'binder/postBuild'
-    - 'binder/start'
-    - 'coverage'
-    - 'dev_mode/style.js'
-    - 'examples/federated/example.cert'
-    - 'galata/test/jupyterlab/notebooks/'
-    - 'galata/test/*/*/*.txt'
-    - 'jupyterlab.desktop'
-    - 'jupyterlab/staging'
-    - 'packages/codemirror/test/foo.grammar'
-    - 'packages/extensionmanager-extension/examples/listings/settings/@jupyterlab/extensionmanager-extension/plugin.jupyterlab-settings'
-    - 'scripts/release_template.txt'
-    - 'typedoc-theme'
-    - 'LICENSE'
-    - 'yarn.lock'
 
-  comment: on-failure
+- path: /content/dataset/train/images/img3.jpg
+label: /content/dataset/train/labels/img3.txt
+- path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img3.png
+label: /content/dataset/train/labels/img3.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_1.75_img3.png
+label: /content/dataset/train/labels/img3.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_219x205_img3.png
+label: /content/dataset/train/labels/img3.txt
+- path: /content/drive/MyDrive/Data_augmentation/img3_recorte.png
+label: /content/dataset/train/labels/img3.txt
+- path: /content/drive/MyDrive/Data_augmentation/img3_superpuesta_1.png
+label: /content/dataset/train/labels/img3.txt
+
+- path: /content/dataset/train/images/img4.jpg
+/content/dataset/train/labels/img4.txt
+- path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img4.png
+- path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_1.90_img4.png
+- path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_154x68_img4.png
+- path: /content/drive/MyDrive/Data_augmentation/img4_recorte.png
+- path: /content/drive/MyDrive/Data_augmentation/img4_superpuesta_1.png
+
+
+- path: /content/dataset/train/images/img6.jpg
+label: /content/dataset/train/labels/img6.txt
+- path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img6.png
+label: /content/dataset/train/labels/img6.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_1.57_img6.png
+label: /content/dataset/train/labels/img6.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_135x98_img6.png
+label: /content/dataset/train/labels/img6.txt
+- path: /content/drive/MyDrive/Data_augmentation/img6.png
+label: /content/dataset/train/labels/img6.txt
+- path: /content/drive/MyDrive/Data_augmentation/img6_superpuesta_1.png
+label: /content/dataset/train/labels/img6.txt
+
+- path: /content/dataset/train/images/img7.jpg
+label: /content/dataset/train/labels/img7.txt
+- path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img7.png
+label: /content/dataset/train/labels/img7.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_1.28_img7.png
+label: /content/dataset/train/labels/img7.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_206x87_img7.png
+label: /content/dataset/train/labels/img7.txt
+- path: /content/drive/MyDrive/Data_augmentation/img7_recorte.png
+label: /content/dataset/train/labels/img7.txt
+- path: /content/drive/MyDrive/Data_augmentation/img7_superpuesta_1.png
+label: /content/dataset/train/labels/img7.txt
+
+
+- path: /content/dataset/train/images/img8.jpg
+label: /content/dataset/train/labels/img8.txt
+- path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img8.png
+label: /content/dataset/train/labels/img8.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_0.72_img8.png
+label: /content/dataset/train/labels/img8.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_131x231_img8.png
+label: /content/dataset/train/labels/img8.txt
+- path: /content/drive/MyDrive/Data_augmentation/img8_recorte.png
+label: /content/dataset/train/labels/img8.txt
+- path: /content/drive/MyDrive/Data_augmentation/img8_superpuesta_1.png
+label: /content/dataset/train/labels/img8.txt
+
+
+- path: /content/dataset/train/images/img9.jpg
+/label: content/dataset/train/labels/img9.txt
+- path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img9.png
+/label: content/dataset/train/labels/img9.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_1.95_img9.png
+/label: content/dataset/train/labels/img9.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_94x114_img9.png
+/label: content/dataset/train/labels/img9.txt
+- path: /content/drive/MyDrive/Data_augmentation/img9_recorte.png
+/label: content/dataset/train/labels/img9.txt
+- path: /content/drive/MyDrive/Data_augmentation/img9_superpuesta_1.png
+/label: content/dataset/train/labels/img9.txt
+
+
+
+- path: /content/dataset/train/images/img10.jpg
+/label: /content/dataset/train/labels/img10.txt
+- path: /content/drive/MyDrive/Data_augmentation/Recorte de lluvia img10.png
+/label: /content/dataset/train/labels/img10.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_contraste_ajustado_1.59_img10.png
+/label: /content/dataset/train/labels/img10.txt
+- path: /content/drive/MyDrive/Data_augmentation/imagen_redimensionada_96x184_img10.png
+/label: /content/dataset/train/labels/img10.txt
+- path: /content/drive/MyDrive/Data_augmentation/img10_superpuesta_1.png
+/label: /content/dataset/train/labels/img10.txt
+- path: /content/drive/MyDrive/Data_augmentation/img10_recorte.png
+/label: /content/dataset/train/labels/img10.txt
+
+val: /content/dataset/valid/images
